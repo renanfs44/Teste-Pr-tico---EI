@@ -1,0 +1,50 @@
+# Lançamentos contábeis da empresa XPTO S/A
+Data: 01/06/2025
+Conta: 1234
+Histórico: Compra de papelaria
+Valor: 250,00
+Tipo: Débito
+
+Data: 01/06/2025
+Conta: 4321
+Histórico: Pagamento com cartão corporativo
+Valor: 250,00
+Tipo: Crédito
+
+# Lançamento com valor de milhar
+Data: 02/06/2025
+Conta: 1001
+Histórico: Pagamento de folha de pagamento
+Valor: 12.345,67
+Tipo: Débito
+
+Data: 02/06/2025
+Conta: 2002
+Histórico: Transferência bancária
+Valor: 12.345,67
+Tipo: Crédito
+
+  Data:     03/06/2025
+Conta:   3333
+Histórico:  Reembolso de despesas (viagem)
+Valor:   780,50
+Tipo:  Débito
+
+Data: 03/06/2025
+Conta: 4444
+Histórico: Estorno bancário
+Valor: 780,50
+Tipo: Crédito
+
+# Dados inválidos abaixo
+Data: 04/06/2025
+Conta: 
+Histórico: Despesa sem conta
+Valor: abc
+Tipo: Débito
+
+Data: 04/06/2025
+Conta: 5555
+Histórico: Receita extra
+Valor: 1.000,00
+Tipo: Crédito
