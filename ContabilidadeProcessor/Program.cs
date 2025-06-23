@@ -18,5 +18,5 @@ string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "lancament
 string json = JsonSerializer.Serialize(lancamentos, new JsonSerializerOptions { WriteIndented = true });
 File.WriteAllText(jsonPath, json);
 
-Console.WriteLine("Arquivo JSON gerado com sucesso.");
+Console.WriteLine("Arquivo JSON com a lista gerado com sucesso. Checar pasta 'Bin'>'Debug'>'Net8.0'");
 
